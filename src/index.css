@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+*{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* ── Google Fonts are loaded via index.html ── */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #fafafa;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+/* ── Gradient text ── */
+.gradient-text {
+  background: linear-gradient(135deg, #a855f7, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Hero background ── */
+.hero-bg {
+  background: linear-gradient(135deg, #0f0a1e 0%, #1e0a3c 40%, #2d1b6e 100%);
+}
+
+/* ── Stats bar ── */
+.stats-bar {
+  background: linear-gradient(90deg, #7c3aed, #a855f7, #7c3aed);
+}
+
+/* ── Navbar glass effect ── */
+.navbar-glass {
+  background: rgba(15, 10, 30, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+/* ── Product card hover ── */
+.product-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(124, 58, 237, 0.18);
+}
+
+/* ── Tag badges ── */
+.tag-popular    { background: #fef3c7; color: #d97706; }
+.tag-new        { background: #d1fae5; color: #059669; }
+.tag-bestseller { background: #ede9fe; color: #7c3aed; }
+
+/* ── Section toggle active button ── */
+.toggle-btn-active {
+  background: linear-gradient(135deg, #7c3aed, #a855f7) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+}
+
+/* ── Step connector line ── */
+.step-line {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, #7c3aed, #a855f7);
+  margin: 0 8px;
+  margin-top: 28px;
+}
+
+/* ── Popular pricing card ── */
+.pricing-card-popular {
+  background: linear-gradient(145deg, #7c3aed, #a855f7);
+  color: #fff;
+}
+
+/* ── Footer ── */
+.footer-bg {
+  background: linear-gradient(135deg, #0f0a1e, #1e0a3c);
+}
+
+/* ── Empty cart fade ── */
+.cart-empty { opacity: 0.5; }
+
+/* ── Smooth scroll ── */
+html { scroll-behavior: smooth; }
+
+/* ── Mobile hero title ── */
+@media (max-width: 640px) {
+  .hero-title { font-size: 2rem !important; }
+}

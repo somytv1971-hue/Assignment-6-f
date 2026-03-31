@@ -1,0 +1,89 @@
+// ─── Icon imports ────────────────────────────────────────────────────
+import portfolioIcon from '../assets/icons/portfolio.png'
+import socialMediaIcon from '../assets/icons/social-media.png'
+import designToolIcon from '../assets/icons/design-tool.png'
+import packageIcon from '../assets/icons/package.png'
+import operationIcon from '../assets/icons/operation.png'
+import writingIcon from '../assets/icons/writing_2327400_1.png'
+
+// ─── Icon map ────────────────────────────────────────────────────────
+export const ICON_MAP = {
+  portfolio: portfolioIcon,
+  'social-media': socialMediaIcon,
+  'design-tool': designToolIcon,
+  package: packageIcon,
+  operation: operationIcon,
+  writing: writingIcon,
+}
+
+// ─── Product data ─────────────────────────────────────────────────────
+const PRODUCTS = [
+  {
+    id: 1,
+    name: 'AI Writing Pro',
+    description: 'Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.',
+    price: 29,
+    period: 'monthly',
+    tag: 'Best Seller',
+    tagType: 'bestseller',
+    features: ['Unlimited generations', '50+ writing templates', 'Grammar checker'],
+    icon: 'writing',
+  },
+  {
+    id: 2,
+    name: 'Design Templates Pack',
+    description: '2000+ premium design templates for presentations and marketing materials.',
+    price: 49,
+    period: 'one-time',
+    tag: 'Popular',
+    tagType: 'popular',
+    features: ['2000+ templates', 'Monthly updates', 'Commercial license'],
+    icon: 'design-tool',
+  },
+  {
+    id: 3,
+    name: 'Premium Stock Assets',
+    description: 'Access millions of royalty-free photos, videos, and graphics for your projects.',
+    price: 19,
+    period: 'monthly',
+    tag: 'New',
+    tagType: 'new',
+    features: ['10M+ assets', 'Commercial use', 'No attribution'],
+    icon: 'package',
+  },
+  {
+    id: 4,
+    name: 'Automation Toolkit',
+    description: 'Automate repetitive tasks and streamline your workflow with powerful tools.',
+    price: 79,
+    period: 'monthly',
+    tag: 'Popular',
+    tagType: 'popular',
+    features: ['50+ automations', 'API access', 'Custom workflows'],
+    icon: 'operation',
+  },
+  {
+    id: 5,
+    name: 'Resume Builder Pro',
+    description: 'Create professional resumes and cover letters that land interviews.',
+    price: 15,
+    period: 'one-time',
+    tag: 'New',
+    tagType: 'new',
+    features: ['100+ templates', 'ATS optimization', 'Export to PDF'],
+    icon: 'portfolio',
+  },
+  {
+    id: 6,
+    name: 'Social Media Content Kit',
+    description: 'Complete toolkit for creating engaging social media content and graphics.',
+    price: 39,
+    period: 'monthly',
+    tag: 'Best Seller',
+    tagType: 'bestseller',
+    features: ['5500+ assets', 'Copyright included', 'Analytics dashboard'],
+    icon: 'social-media',
+  },
+]
+
+export default PRODUCTS
