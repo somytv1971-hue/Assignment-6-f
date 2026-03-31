@@ -39,7 +39,7 @@ export default function Hero() {
 
         {/* ── Right: banner image ── */}
         <div className="relative flex justify-center">
-         <img src="/src/assets/banner.png" alt="Digital Workflow Banner" />
+         <img src="./assets/icons/banner.png" alt="Digital Workflow Banner" />
         </div>
       </div>
     </section>

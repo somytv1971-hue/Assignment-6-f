@@ -10,6 +10,7 @@ import Steps from './components/Steps'
 import Pricing from './components/Pricing'
 import Workflow from './components/Workflow'
 import Footer from './components/Footer'
+import BannerImg from './assets/icons/banner.png'
 
 export default function App() {
   const [cartItems, setCartItems] = useState([])
