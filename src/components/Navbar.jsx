@@ -12,9 +12,7 @@ export default function Navbar({ cartCount }) {
 
         {/* ── Logo ── */}
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center">
-            <LogoIcon />
-          </div>
+
           <span className="font-display font-extrabold text-white text-xl tracking-tight">
             Digi<span className="gradient-text">Tools</span>
           </span>

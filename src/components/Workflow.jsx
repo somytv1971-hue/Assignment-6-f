@@ -10,7 +10,7 @@ export default function Workflow() {
 
                 {/* ── Subheading ── */}
                 <p className="text-purple-100 text-sm md:text-base mb-8 max-w-2xl mx-auto">
-                    Start using premium digital tools in minutes. Get instant access to all premium features. Catch you live today.
+                    Join thousands of professionals who are already using Digitools to work smarter. Start your free trial today.
                 </p>
 
                 {/* ── Buttons ── */}
@@ -25,7 +25,7 @@ export default function Workflow() {
 
                 {/* ── Footer text ── */}
                 <p className="text-purple-100 text-xs md:text-sm">
-                    No risk from trial - No credit card required - Cancel anytime
+                    14-day free trial • No credit card required • Cancel anytime
                 </p>
 
             </div>

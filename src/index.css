@@ -4,22 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 
-*{
+* {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
 /* ── Google Fonts are loaded via index.html ── */
 
 body {
-  font-family: 'DM Sans', sans-serif;
   background: #fafafa;
-}
-
-h1, h2, h3, h4, .font-display {
-  font-family: 'Syne', sans-serif;
 }
 
 /* ── Gradient text ── */

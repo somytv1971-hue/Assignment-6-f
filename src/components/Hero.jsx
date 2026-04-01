@@ -1,4 +1,5 @@
 import { PlayFillIcon } from './Icons'
+import bannerImg from '../assets/icons/banner.png'
 
 export default function Hero() {
   return (
@@ -8,10 +9,10 @@ export default function Hero() {
       <div className="absolute top-[-80px] right-[-80px] w-[400px] h-[400px] rounded-full bg-purple-600/20 blur-3xl pointer-events-none" />
       <div className="absolute bottom-[-60px] left-[-60px] w-[300px] h-[300px] rounded-full bg-cyan-500/15 blur-3xl pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-[60px] items-center relative z-10">
 
         {/* ── Left: copy ── */}
-        <div>
+        <div className="mx-left-10">
           <span className="inline-block bg-purple-500/20 border border-purple-500/40 text-purple-300 text-xs px-3 py-1 rounded-full mb-4 font-medium">
             🚀 New: AI-Powered Tools Available
           </span>
@@ -22,8 +23,9 @@ export default function Hero() {
           </h1>
 
           <p className="text-purple-200 text-lg leading-relaxed mb-8 max-w-md">
-            All the premium tools you need to create, automate, and scale—bundled
-            into one powerful platform built for modern teams.
+            Access premium AI tools, design assets, templates, and productivity
+            software—all in one place. Start creating faster today.
+            Explore Products
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -38,8 +40,8 @@ export default function Hero() {
         </div>
 
         {/* ── Right: banner image ── */}
-        <div className="relative flex justify-center">
-         <img src="./assets/icons/banner.png" alt="Digital Workflow Banner" />
+        <div className="relative flex justify-center md:justify-end">
+          <img src={bannerImg} alt="Digital Workflow Banner" />
         </div>
       </div>
     </section>
