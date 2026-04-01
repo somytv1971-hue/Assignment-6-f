@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
 
           {/* Link columns container */}
-          <div className="flex gap-10 flex-1 md:justify-center">
+          <div className="flex gap-20 flex-1 md:justify-center">
             {FOOTER_LINKS.map(({ heading, links }) => (
               <div key={heading}>
                 <h4 className="font-bold text-white text-sm mb-4">{heading}</h4>
@@ -79,7 +79,7 @@ export default function Footer() {
 
         {/* ── Bottom bar ── */}
         <div className="border-t border-slate-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-slate-500 text-xs">
-          <span>© 2025 DigiTools. All rights reserved.</span>
+          <span>© 2026 DigiTools. All rights reserved.</span>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
